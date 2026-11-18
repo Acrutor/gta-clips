@@ -1,0 +1,29 @@
+# Repo PÚBLICO (rama youtube-clips de Acrutor/gta-clips): solo código y documentación propios.
+# Lista blanca: se ignora todo salvo lo indicado abajo.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/Bitacora.md
+!/README.md
+!/archivo/
+!/descubrimiento/
+!/directos/
+!/filtro/
+!/subida/
+!/.claude/
+/.claude/*
+!/.claude/skills/
+
+# Nunca: secretos, datos, vídeos, cachés
+.env
+*.env
+secretos/
+datos/
+__pycache__/
+*.pyc
+*.mp4
+*.ts
+*.jpg
+*.png
+*.log
+settings.local.json

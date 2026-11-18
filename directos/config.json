@@ -1,0 +1,13 @@
+{
+  "_ayuda": "Configuración del orquestador de directos (orquestador.py). Se lee en cada pasada: los cambios valen sin reiniciar nada.",
+  "objetivo_clips_dia": 30,
+  "max_grabaciones_simultaneas": 5,
+  "idioma": "es",
+  "juegos": ["Grand Theft Auto VI", "Grand Theft Auto V"],
+  "min_espectadores": 300,
+  "min_sin_directos_para_vods": 30,
+  "_nota_vods": "Si nadie de GTA está en directo durante estos minutos y faltan clips, se sacan tramos de VODs de Twitch (o vídeos de YouTube) de los últimos 7 días.",
+  "solo_estos_streamers": [],
+  "nunca_estos_streamers": [],
+  "_nota_listas": "logins de Twitch en minúscula. Si 'solo_estos_streamers' tiene nombres, SOLO se graba a esos (p. ej. los que te han dado permiso)."
+}
